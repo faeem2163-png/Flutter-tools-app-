@@ -1,17 +1,16 @@
 name: sample_flutter_project
 description: A new Flutter project for Codemagic testing.
 
-publish_to: 'none' # not publishing to pub.dev
+publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -21,3 +20,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
